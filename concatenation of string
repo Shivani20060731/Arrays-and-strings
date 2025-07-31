@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+   string a = "hello",b = "world";
+   string result = a + " " + b;
+   cout << result;
+    return 0;
+}
+
+/output
+hello world
