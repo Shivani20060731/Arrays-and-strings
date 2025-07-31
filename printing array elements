@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int arrayl[]={34,7,89,76,90};
+int main(){
+    for(int i;i<5;i++){
+        cout<<arrayl[i]<<",";
+    }
+    return 0;
+    
+}
+
+
+/output
+34,7,89,76,90
