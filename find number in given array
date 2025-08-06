@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {4, 8, 15, 16, 23, 42}; 
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int key;
+
+    cout << "Enter the number to search: ";
+    cin >> key;
+
+    bool found = false;
+    int index = -1;
+
+    for (int i = 0; i < n; ++i) {
+        if (arr[i] == key) {
+            found = true;
+            index = i;
+            break;
+        }
+    }
+
+    if (found) {
+        cout << "Number " << key << " found at index " << index << endl;
+    } else {
+        cout << "Number " << key << " not found in the array." << endl;
+    }
+
+    return 0;
+}
+
+
+output
+Enter the number to search:4
+Number 4 found at index 0
