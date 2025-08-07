@@ -174,6 +174,11 @@ Algorithm:
 
 4. Print the reversed string.
 
+   
+   Conclusion
+   
+We studied and implemented basic arrays and strings in C++. Arrays help store multiple values of the same type, while strings are used for handling text. We performed key operations like printing, searching, finding sum, max/min in arrays, and string declaration, concatenation, and reversal. These fundamentals are essential for effective programming and problem-solving.
+
 
 
 
